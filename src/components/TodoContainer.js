@@ -3,30 +3,36 @@ import TodosList from "./TodosList";
 import Header from "./Header";
 import InputTodo from "./InputTodo";
 import uuid from "react-uuid";
-
+import axios from "axios";
 import "../App.css";
 
 
 class TodoContainer extends React.Component {
+    // state = {
+    //     todos: [
+    //         {
+    //             id: uuid(),
+    //             title: "Setup development environment",
+    //             completed: true
+    //         },
+    //         {
+    //             id: uuid(),
+    //             title: "Develop website and add content",
+    //             completed: false
+    //         },
+    //         {
+    //             id: uuid(),
+    //             title: "Deploy to live server",
+    //             completed: false
+    //         }
+    //     ]
+    // };
+
+    // https://jsonplaceholder.typicode.com/todos
+
     state = {
-        todos: [
-            {
-                id: uuid(),
-                title: "Setup development environment",
-                completed: true
-            },
-            {
-                id: uuid(),
-                title: "Develop website and add content",
-                completed: false
-            },
-            {
-                id: uuid(),
-                title: "Deploy to live server",
-                completed: false
-            }
-        ]
-    };
+        todos: [],
+    }
 
     handleChange = id => {
         this.setState(
@@ -65,6 +71,16 @@ class TodoContainer extends React.Component {
             todos: [...this.state.todos, newTodo]
         });
     };
+
+    componentDidMount() {
+        axios.get("https://jsonplaceholder.typicode.com/todos", {
+            params: {
+                _limit: 9
+            }
+        })
+            .then(response => this.setState({ todos: response.data })
+            );
+    }
 
     render() {
         return (
