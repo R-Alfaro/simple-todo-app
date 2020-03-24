@@ -9,12 +9,12 @@ const Header = () => {
     return (
         <header style={headerStyle}>
             <h1 style={{ fontSize: "25px", marginBottom: "15px" }}>
-                Ramiro's Todo App
+                Ramiro's Todos App
             </h1>
             <p style={{ fontSize: "19px" }}>
                 Please add to-dos item(s) through the input field
             </p>
-  
+
         </header>
     )
 }
