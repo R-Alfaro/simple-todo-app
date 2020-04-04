@@ -47,7 +47,7 @@ class TodoContainer extends React.Component {
 
     delTodo = id => {
         axios
-            .delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
+            .delete(`https://my-json-server.typicode.com/r-alfaro/db/todos/${id}`)
             .then(reponse =>
                 this.setState({
                     todos: [
@@ -61,7 +61,7 @@ class TodoContainer extends React.Component {
 
     addTodoItem = title => {
         axios
-            .post("https://jsonplaceholder.typicode.com/todos", {
+            .post("https://my-json-server.typicode.com/r-alfaro/db/todos/", {
                 title: title,
                 completed: false,
             })
@@ -73,7 +73,8 @@ class TodoContainer extends React.Component {
     }
 
     componentDidMount() {
-        axios.get("https://jsonplaceholder.typicode.com/todos", {
+        //axios.get("https://jsonplaceholder.typicode.com/todos", {
+        axios.get("https://my-json-server.typicode.com/r-alfaro/db/todos/", {
             params: {
                 _limit: 999
             }
