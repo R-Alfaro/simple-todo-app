@@ -1,0 +1,66 @@
+{
+    "aboutTitle": "Just a few words about us",
+    "aboutParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante accongue. Quisque porttitor porttitor tempus. Donec maximus ipsum non ornare vestibulum. Sed libero nibh, feugiat at enim id, bibendum sollicitudin arcu. Aliquam elit nibh, finibus eget mauris non, pretium vehicula ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "counterList": [{
+            "key": 0,
+            "counter": 12,
+            "desctiption": "Years of experience"
+        },
+        {
+            "key": 1,
+            "counter": 257,
+            "desctiption": "Happy Clients"
+        },
+        {
+            "key": 2,
+            "counter": 192,
+            "desctiption": "Projects Completed"
+        }
+    ],
+    "testimonialList": [{
+            "key": 0,
+            "paragraph": "Lorem(1) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante ac congue. Quisque porttitor porttitor tempus.",
+            "image": "assets/img/user.png",
+            "imageAlt": "Author (1)",
+            "header": "Maria Smith",
+            "title": "Project Manager (1)",
+            "company": "Company (1)"
+        },
+        {
+            "key": 1,
+            "paragraph": "Lorem(2) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante ac congue. Quisque porttitor porttitor tempus.",
+            "image": "assets/img/user.png",
+            "imageAlt": "Author (2)",
+            "header": "Maria Lopez",
+            "title": "Project Manager (2)",
+            "company": "Company (2)"
+        },
+        {
+            "key": 2,
+            "paragraph": "Lorem(3) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante ac congue. Quisque porttitor porttitor tempus.",
+            "image": "assets/img/user.png",
+            "imageAlt": "Author (3)",
+            "header": "Maria Gonzales",
+            "title": "Project Manager (3)",
+            "company": "Company (3)"
+        },
+        {
+            "key": 3,
+            "paragraph": "Lorem(4) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante ac congue. Quisque porttitor porttitor tempus.",
+            "image": "assets/img/user.png",
+            "imageAlt": "Author (4)",
+            "header": "Maria Johnson",
+            "title": "Project Manager (4)",
+            "company": "Company (4)"
+        },
+        {
+            "key": 4,
+            "paragraph": "Lorem(5) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante ac congue. Quisque porttitor porttitor tempus.",
+            "image": "assets/img/user.png",
+            "imageAlt": "Author (5)",
+            "header": "Maria Lopez Johnson",
+            "title": "Project Manager (5)",
+            "company": "Company (5)"
+        }
+    ]
+}
